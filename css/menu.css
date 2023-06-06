@@ -1,0 +1,354 @@
+/** @format */
+@import url(//db.onlinewebfonts.com/c/1fc6b9a8ffa7a66d2335064d5b7db082?family=Lato+ExtraBold);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+:root {
+  --bg-color: #ebe28c;
+  --second-bg-color: #f6f2d3;
+  --text-color: #000;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+section .menu {
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 9%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header.sticky {
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+  top: 9px;
+  left: 16px;
+  position: absolute;
+  width: 283px;
+  height: 111px;
+}
+
+#menu-icon {
+  font-size: 3.6rem;
+  color: var(--text-color);
+  display: none;
+}
+
+.navbar a {
+  margin-left: 4rem;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #000;
+}
+
+/* Home */
+.home-content {
+  margin-top: 115px;
+  margin-left: 65px;
+  margin-bottom: 43px;
+}
+.home-content h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  line-height: 154px;
+  font-size: 128px;
+  color: #b81821;
+  mix-blend-mode: normal;
+  -webkit-text-stroke: 1px #b81821;
+}
+
+/* Section menu */
+.menu {
+  background: #f6f2d3;
+}
+
+.menu p {
+  padding-top: 56px;
+  padding-bottom: 46px;
+  margin-left: 66px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+.menu h2 {
+  padding-bottom: 17px;
+  margin-left: 66px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.menu-burger {
+  display: flex;
+}
+
+.menu-list {
+  padding-left: 52px;
+}
+
+.menu-list h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.menu-list h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.menu-price {
+  display: flex;
+}
+.menu-price h4 {
+  padding-right: 6px;
+  padding-bottom: 20px;
+}
+
+.Desk {
+  padding-bottom: 40px;
+  margin-right: 66px;
+}
+
+.menu-sides {
+  padding-left: 12px;
+  display: flex;
+}
+.menu-sides img {
+  padding-left: 75px;
+}
+.menu-prices {
+  display: flex;
+}
+.menu-prices h4 {
+  padding-bottom: 56px;
+}
+.letterrs {
+  padding-left: 7px;
+  letter-spacing: 0.19em;
+}
+
+.menu-drink {
+  display: flex;
+  padding-left: 122px;
+  padding-bottom: 167px;
+}
+.menu-priced {
+  display: flex;
+  padding-bottom: 56px;
+}
+#drink-list {
+  margin-top: 115px;
+}
+
+.horizontal-line {
+  border: none;
+  border-top: 1px solid #b81821; /* You can change the color here */
+  margin-left: 66px;
+  margin-right: 66px;
+  padding-bottom: 61px;
+}
+
+/* Contact Us */
+.contact {
+  background-color: #fff;
+  height: 882px;
+  display: flex;
+}
+
+.contact-menu {
+  padding-top: 87px;
+  padding-left: 84px;
+}
+
+.contact-menu h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 63px;
+  padding-right: 381px;
+}
+
+.contact-open {
+  padding-top: 87px;
+}
+
+.name {
+  padding-top: 58px;
+  display: flex;
+  gap: 46px;
+}
+
+.input-box p {
+  display: block;
+  padding-bottom: 31px;
+}
+
+.input-box input {
+  border: none;
+  border-bottom: 3px solid #000000;
+  width: 160px;
+}
+
+.input-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.emailbox {
+  padding-top: 58px;
+}
+
+.emailbox input {
+  padding-top: 31px;
+  border: none;
+  border-bottom: 3px solid #000000;
+  width: 160px;
+}
+
+.input-email {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.input-message {
+  padding-top: 14px;
+}
+
+.input-mess {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.input-message input {
+  padding-top: 51px;
+  border: none;
+  border-bottom: 3px solid #000000;
+  width: 410px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.submit-box {
+  padding-top: 31px;
+  margin-left: 30px; /* Adjust the margin as needed */
+}
+
+.submit-box input {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 23px 45px 23px 45px;
+}
+
+/* Contat open */
+.contact-open h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 63px;
+  padding-bottom: 63px;
+}
+.contact-open h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.saturday {
+  padding-top: 31px;
+}
+
+.contact-open h6 {
+  padding-top: 47px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.almt {
+  padding-top: 31px;
+}
+
+.telp {
+  display: flex;
+  align-items: baseline; /* Centers the content vertically */
+}
+
+.telp-content {
+  display: flex;
+  align-items: baseline; /* Centers the content horizontally */
+}
+
+.telp img {
+  margin-right: 35px; /* Adds some spacing between the image and the text */
+}
+.email {
+  display: flex;
+  align-items: baseline; /* Centers the content vertically */
+}
+
+.email-content {
+  display: flex;
+  align-items: baseline; /* Centers the content horizontally */
+}
+
+.email img {
+  margin-right: 35px; /* Adds some spacing between the image and the text */
+}
+
+/* Footer */
+.footer {
+  background: #b81821;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer p {
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
